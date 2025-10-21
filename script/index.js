@@ -563,8 +563,6 @@ function update(timestamp) {
   // Update snake position
   snake.updateDirection(timestamp);
 
-  // in-canvas score display removed
-
   requestAnimationFrame(update);
 }
 
