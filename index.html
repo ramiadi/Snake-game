@@ -10,7 +10,22 @@
 
 <body>
 
-    <canvas id="board"></canvas>
+    <div class="container">
+        <header class="hud">
+            <div class="title">Snake Game</div>
+            <div class="score" id="score">Score: 0</div>
+            <div class="controls">
+                <label class="toggle">
+                    <input type="checkbox" id="effectsToggle" checked />
+                    <span>Effects</span>
+                </label>
+            </div>
+        </header>
+
+        <main class="board-wrap">
+            <canvas id="board"></canvas>
+        </main>
+    </div>
 
     <script src="script/index.js"></script>
 </body>
